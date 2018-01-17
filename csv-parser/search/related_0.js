@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['head',['head',['../classcsv__parser_1_1CSVReader.html#a7f8e3f02362605d85826abbb684ac924',1,'csv_parser::CSVReader']]]
+  ['parse',['parse',['../classcsv_1_1CSVReader.html#a43c1ce866b83a6196ff89862be7da7ae',1,'csv::CSVReader']]]
 ];

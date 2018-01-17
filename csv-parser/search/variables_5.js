@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['guess_5fcsv',['GUESS_CSV',['../namespacecsv__parser.html#a92f546fe3ed0b6e40bdc7e89f376b8cb',1,'csv_parser']]]
+  ['iteration_5fchunk_5fsize',['ITERATION_CHUNK_SIZE',['../namespacecsv.html#a82452d316c535c04ad187c1863b1e228',1,'csv']]]
 ];

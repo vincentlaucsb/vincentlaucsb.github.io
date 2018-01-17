@@ -69,10 +69,11 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="csv__parser_8h_source.html">csv_parser.h</a>&quot;</code><br />
+<code>#include &lt;set&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacecsv__parser"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecsv__parser.html">csv_parser</a></td></tr>
+<tr class="memitem:namespacecsv"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecsv.html">csv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -80,8 +81,15 @@ Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Utility Functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Functions for getting quick information from CSV files without writing a lot of code </p>
 </div></td></tr>
-<tr class="memitem:a36fd737d1c1bb82eb2683cfe120d5970"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecsv__parser.html#a36fd737d1c1bb82eb2683cfe120d5970">csv_parser::csv_escape</a> (std::string &amp;, bool quote_minimal=true)</td></tr>
-<tr class="separator:a36fd737d1c1bb82eb2683cfe120d5970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ea9f08e2780f0b36caa54f3c79a2fa"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecsv.html#a89ea9f08e2780f0b36caa54f3c79a2fa">csv::csv_escape</a> (const std::string &amp;, const bool quote_minimal=true)</td></tr>
+<tr class="separator:a89ea9f08e2780f0b36caa54f3c79a2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Editing Functions</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Functions for editing existing CSV files </p>
+</div></td></tr>
+<tr class="memitem:a5896616940428e50bbf1e88676fa8747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecsv.html#a5896616940428e50bbf1e88676fa8747">csv::reformat</a> (std::string infile, std::string outfile, int skiplines=0)</td></tr>
+<tr class="separator:a5896616940428e50bbf1e88676fa8747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4192a3f4ad4f3f8a51c3707db7b1ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecsv.html#ade4192a3f4ad4f3f8a51c3707db7b1ce">csv::merge</a> (std::string outfile, std::vector&lt; std::string &gt; in)</td></tr>
+<tr class="separator:ade4192a3f4ad4f3f8a51c3707db7b1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

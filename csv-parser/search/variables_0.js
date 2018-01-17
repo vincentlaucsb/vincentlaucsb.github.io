@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['bad_5frow_5fhandler',['bad_row_handler',['../classcsv__parser_1_1CSVReader.html#af11c02f1a977e61239f6a3ac8c9e840b',1,'csv_parser::CSVReader']]]
+  ['col_5fnames',['col_names',['../classcsv_1_1CSVReader.html#abf0fa7c2e7215684dc99e748d573175e',1,'csv::CSVReader']]],
+  ['correct_5frows',['correct_rows',['../classcsv_1_1CSVReader.html#abf613a1519eb7f9ed4c069397f8722ef',1,'csv::CSVReader']]]
 ];
